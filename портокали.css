@@ -1,0 +1,103 @@
+/* Стилове за тялото на документа */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стилове за хедъра (горната част) */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Стилове за основното съдържание */
+main {
+    padding: 20px;
+}
+
+/* Стилове за футъра (долната част) */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+ul li ul.dropdown{
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 50%;
+    background:none;
+    z-index: 999;
+    display: none;
+    
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+ul li ul.Hello{
+    display: block;
+}
+
+ul li ul.Hello {
+    background: #000000;
+    position: absolute;
+    display: none;
+}
+ul li a:hover{
+    color: rgb(255, 255, 255);
+    
+}
+ul li:hover ul.Hello{
+    display: block;
+}
+
+img{
+    width: 300px;
+}
+main section{
+    display: inline-block;
+}
